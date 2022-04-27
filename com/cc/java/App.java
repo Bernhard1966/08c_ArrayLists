@@ -26,6 +26,20 @@ public class App {
         output("1. Element: " + carMakers.get(0));
         output("Letztes Element: " + carMakers.get(carMakers.size()-1));
 
+        output(" ");
+        output("------- Iteration 1 -----------");
+
+        for (int i = 0; i < carMakers.size(); i++) {
+            System.out.print(carMakers.get(i) + " ");
+        }
+
+        output(" ");
+        output("------- Iteration 2 -----------");
+
+        for (String element : carMakers) {
+            System.out.print(element + " "); 
+        }
+
     }
 
     public static void output(String outputStr) {
