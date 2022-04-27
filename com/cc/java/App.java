@@ -53,6 +53,19 @@ public class App {
         Collections.sort(carMakers);
         output("AL: " + carMakers);
         output("1. Element: " + carMakers.get(0));
+        
+        // Daten entfernen (JS --> pop(); J --> remove())
+        carMakers.remove(0);
+        output("AL: " + carMakers);
+        carMakers.remove(carMakers.size()-1);
+        output("AL: " + carMakers);
+
+        // AL leeren ...
+        carMakers.clear();
+        output("AL: " + carMakers);
+
+        // double --> AL
+
 
 
     }
