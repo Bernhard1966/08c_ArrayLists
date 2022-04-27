@@ -1,6 +1,8 @@
 package com.cc.java;
 
 import java.util.ArrayList;
+import java.util.Collections;
+
 
 public class App {
     
@@ -36,9 +38,22 @@ public class App {
         output(" ");
         output("------- Iteration 2 -----------");
 
-        for (String element : carMakers) {
-            System.out.print(element + " "); 
+        for (String boo : carMakers) {
+            System.out.print(boo + " "); 
         }
+
+        // Daten in AL ersetzen / Überschreiben
+        output(" ");
+        carMakers.set(1, "MB");
+        output("AL: " + carMakers);
+        
+        output(" ");
+        output("------- Sortierung -----------");
+
+        Collections.sort(carMakers);
+        output("AL: " + carMakers);
+        output("1. Element: " + carMakers.get(0));
+
 
     }
 
