@@ -3,9 +3,8 @@ package com.cc.java;
 import java.util.ArrayList;
 
 public class App {
-    
+    //warum gehts nicht ?
     public static void main(String[] args) {
-<<<<<<< HEAD
         // ArryList  (AL) anlegen ....
         ArrayList<String> carMakers = new ArrayList<>();
         output("Al: " + carMakers);
@@ -37,7 +36,6 @@ public class App {
 
             }
         }
-=======
      
       	// ArrayList (AL) anlegen ...
         ArrayList<String> carMakers = new ArrayList<>();
@@ -73,7 +71,6 @@ public class App {
             System.out.print(element + " "); 
         }
 
->>>>>>> 6a4b90a920c9c2b4b7d6e3ce4f03eb2187178619
     }
 
     public static void output(String outputStr) {
