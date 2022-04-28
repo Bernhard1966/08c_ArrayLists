@@ -2,7 +2,7 @@ package com.cc.java;
 
 import java.util.ArrayList;
 import java.util.Collections;
-//Arrey 2teil
+//Arrey 2teil  neue datei?
 
 public class App {
     //warum gehts nicht ?
